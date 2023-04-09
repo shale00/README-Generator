@@ -34,7 +34,7 @@ const questions = [
         {
             type: 'input',
             name: 'installation',
-            message: 'What are the Installation instructions?',
+            message: 'What are the steps required to Install your project?',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
@@ -60,7 +60,7 @@ const questions = [
         {
             type: 'input',
             name: 'contributing',
-            message: 'Are there any Contributions to your application?',
+            message: 'How can people Contribute to your application?',
             
         },
         {
@@ -101,6 +101,11 @@ const questions = [
                 }
             }
         },
+        {
+            type: 'input',
+            name: 'credit',
+            message: 'Are there any collaborators or third-party assets that require attribution?'
+        }
     ];
 
 // Function to write README file
