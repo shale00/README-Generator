@@ -7,7 +7,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
-  * [Licenses](#licenses)
+  * [License](#license)
   * [Badges](#badges)
   * [How to Contribute](#contribute)
   * [Tests](#tests)
@@ -18,6 +18,8 @@
 
   ## Usage
   After opening the app and installing inquirer npm using the terminal or bash, enter 'node index.js' into the terminal and then answer the prompts to create a professional README.
+
+  https://user-images.githubusercontent.com/123425315/230756643-bc65737c-32b0-4e04-850f-35d78cf1b4ee.mp4
 
   ## Credits
   The starter code used to create this app was obtained from: https://github.com/coding-boot-camp/potential-enigma
