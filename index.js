@@ -120,7 +120,7 @@ function init() {
     inquirer.prompt(questions)
         .then((answers) => {
             const markdown = generateMarkdown(answers);
-            writeToFile('README.md', markdown);
+            writeToFile('ex-README.md', markdown);
             console.log('Successfully wrote to README.md.');
         })
         .catch((err) => console.log(err));
